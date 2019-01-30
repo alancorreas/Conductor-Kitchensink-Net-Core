@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "TaskProcessor10.Console": {
+      "commandName": "Project",
+      "commandLineArgs": "-baseAddress http://192.168.137.187:8080"
+    }
+  }
+}
