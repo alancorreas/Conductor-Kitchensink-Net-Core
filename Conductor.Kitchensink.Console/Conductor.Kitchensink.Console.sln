@@ -7,19 +7,25 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Conductor.KitchenSink.Conso
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Task1Processor.Console", "Task1Processor\Task1Processor.Console.csproj", "{06E99E6F-70DE-4D9A-9E1B-5C47731C70CF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task5Processor.Console", "Task5Processor.Console\Task5Processor.Console.csproj", "{CADD8549-97A1-48C6-B8F0-CB9A56C99EEA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Task5Processor.Console", "Task5Processor.Console\Task5Processor.Console.csproj", "{CADD8549-97A1-48C6-B8F0-CB9A56C99EEA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskProcessor.Models", "TaskProcessor.Models\TaskProcessor.Models.csproj", "{F7FA573C-8ACB-43BA-BA8D-61AD8C603B42}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TaskProcessor.Models", "TaskProcessor.Models\TaskProcessor.Models.csproj", "{F7FA573C-8ACB-43BA-BA8D-61AD8C603B42}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task4Processor.Console", "Task4Processor.Console\Task4Processor.Console.csproj", "{E2D85D61-A649-4ACB-9717-B36F4EDF1EB2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Task4Processor.Console", "Task4Processor.Console\Task4Processor.Console.csproj", "{E2D85D61-A649-4ACB-9717-B36F4EDF1EB2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task6Processor.Console", "Task6Processor.Console\Task6Processor.Console.csproj", "{FD4E19AC-E632-4B2A-B238-BD3FD7B61612}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Task6Processor.Console", "Task6Processor.Console\Task6Processor.Console.csproj", "{FD4E19AC-E632-4B2A-B238-BD3FD7B61612}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskProcessor30.Console", "TaskProcessor30.Console\TaskProcessor30.Console.csproj", "{A3019681-1DC5-4E82-A7D8-CF7DE97467BA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TaskProcessor30.Console", "TaskProcessor30.Console\TaskProcessor30.Console.csproj", "{A3019681-1DC5-4E82-A7D8-CF7DE97467BA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskProcessor10.Console", "TaskProcessor10.Console\TaskProcessor10.Console.csproj", "{0BB4E414-3407-47A3-887F-1A47124D1181}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TaskProcessor10.Console", "TaskProcessor10.Console\TaskProcessor10.Console.csproj", "{0BB4E414-3407-47A3-887F-1A47124D1181}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskProcessor11.Console", "TaskProcessor11.Console\TaskProcessor11.Console.csproj", "{B71E534D-A711-41D5-8D60-B4AE082AD518}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TaskProcessor11.Console", "TaskProcessor11.Console\TaskProcessor11.Console.csproj", "{B71E534D-A711-41D5-8D60-B4AE082AD518}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{529CD298-B5BE-4E6C-A77E-8D13CE1CCF9D}"
+	ProjectSection(SolutionItems) = preProject
+		start-workers.bash = start-workers.bash
+		start-workers.bat = start-workers.bat
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

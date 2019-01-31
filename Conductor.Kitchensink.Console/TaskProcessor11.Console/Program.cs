@@ -11,6 +11,8 @@ namespace TaskProcessor11.Console
 
         static async Task Main(string[] args)
         {
+            System.Console.WriteLine("Starting Task 11 Worker");
+
             if (args.Count() % 2 != 0)
             {
                 System.Console.WriteLine("Invalid arguments");

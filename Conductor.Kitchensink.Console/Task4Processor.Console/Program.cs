@@ -11,6 +11,8 @@ namespace Task4Processor.Console
 
         static async Task Main(string[] args)
         {
+            System.Console.WriteLine("Starting Task 4 Worker");
+
             if (args.Count() % 2 != 0)
             {
                 System.Console.WriteLine("Invalid arguments");
@@ -33,6 +35,9 @@ namespace Task4Processor.Console
 
             var task4Processor = new Task4Processor();
             await task4Processor.ProcessAsync(param[BASE_ADDRESS_PARAMETER]);
+
+            System.Console.WriteLine("Press any button to exit...");
+            System.Console.ReadKey();
         }
     }
 }

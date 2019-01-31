@@ -11,6 +11,8 @@ namespace Task6Processor.Console
 
         static async Task Main(string[] args)
         {
+            System.Console.WriteLine("Starting Task 6 Worker");
+
             if (args.Count() % 2 != 0)
             {
                 System.Console.WriteLine("Invalid arguments");
@@ -33,6 +35,15 @@ namespace Task6Processor.Console
 
             var task6Processor = new Task6Processor();
             await task6Processor.ProcessAsync(param[BASE_ADDRESS_PARAMETER]);
+
+            System.Console.WriteLine("Press any button to exit...");
+            System.Console.ReadKey();
+
+            System.Console.WriteLine("Press any button to exit...");
+            System.Console.ReadKey();
+
+            System.Console.WriteLine("Press any button to exit...");
+            System.Console.ReadKey();
         }
     }
 }

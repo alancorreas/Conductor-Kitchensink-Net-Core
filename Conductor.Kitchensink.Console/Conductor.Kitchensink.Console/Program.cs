@@ -15,6 +15,8 @@ namespace Conductor.KitchenSink.Console
 
         static async Task Main(string[] args)
         {
+            System.Console.WriteLine("Starting Kitchensink workflow");
+
             if (args.Count() % 2 != 0)
             {
                 System.Console.WriteLine("Invalid arguments");
@@ -66,6 +68,7 @@ namespace Conductor.KitchenSink.Console
             var workflowRunner = new KitchenSinkRunner();
             await workflowRunner.RunAsync(param[BASE_ADDRESS_PARAMETER], param[WORKFLOW_NAME_PARAMETER], param[TASK_2_NAME_PARAMETER], int.Parse(param[ODD_EVEN_PARAMETER]), int.Parse(param[MOD_PARAMETER]));
 
+            System.Console.WriteLine("Press any button to exit...");
             System.Console.ReadKey();
         }
     }
