@@ -53,7 +53,7 @@ namespace TaskProcessor30.Console
                         continue;
                     }
 
-                    System.Console.WriteLine($"Processed task: {await responseMessage.Content.ReadAsStringAsync()}");
+                    System.Console.WriteLine($"Task30 Worker Processed task: {await responseMessage.Content.ReadAsStringAsync()}");
 
                     Thread.Sleep(1000);
                 }

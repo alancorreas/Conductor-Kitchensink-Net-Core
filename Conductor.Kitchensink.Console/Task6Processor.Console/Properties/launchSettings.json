@@ -2,7 +2,7 @@
   "profiles": {
     "Task6Processor.Console": {
       "commandName": "Project",
-      "commandLineArgs": "-baseAddress http://192.168.137.187:8080"
+      "commandLineArgs": "-baseAddress http://192.168.137.93:8080"
     }
   }
 }

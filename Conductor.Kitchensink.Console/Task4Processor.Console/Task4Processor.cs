@@ -70,7 +70,7 @@ namespace Task4Processor.Console
                         continue;
                     }
 
-                    System.Console.WriteLine($"Processed task: {await responseMessage.Content.ReadAsStringAsync()}");
+                    System.Console.WriteLine($"Task4 Worker Processed task: {await responseMessage.Content.ReadAsStringAsync()}");
 
                     Thread.Sleep(1000);
                 }
