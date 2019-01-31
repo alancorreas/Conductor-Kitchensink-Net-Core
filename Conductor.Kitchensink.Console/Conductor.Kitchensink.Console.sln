@@ -23,6 +23,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TaskProcessor11.Console", "
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{529CD298-B5BE-4E6C-A77E-8D13CE1CCF9D}"
 	ProjectSection(SolutionItems) = preProject
+		kitchensink2.json = kitchensink2.json
 		start-workers.bash = start-workers.bash
 		start-workers.bat = start-workers.bat
 	EndProjectSection

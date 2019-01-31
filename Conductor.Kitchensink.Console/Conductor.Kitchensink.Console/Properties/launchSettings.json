@@ -2,7 +2,7 @@
   "profiles": {
     "Conductor.KitchenSink.Console": {
       "commandName": "Project",
-      "commandLineArgs": "-task2Name task_5 -baseAddress http://192.168.137.93:8080 -workFlowName kitchensink9 -oddEven 1 -mod 5"
+      "commandLineArgs": "-task2Name task_5 -baseAddress http://192.168.137.93:8080 -workFlowName kitchensink2 -oddEven 1 -mod 5"
     }
   }
 }
