@@ -63,6 +63,9 @@ namespace Task5Processor.Console
                     taskUpdateRequest.Status = Constants.TaskStatuses.COMPLETED;
                     taskUpdateRequest.OutputData.OddEven = oddEven;
 
+                    // TODO Remove fixed address from code
+                    taskUpdateRequest.OutputData.ElasticSearchHost = "192.168.137.93";
+
                     var stringContent = new StringContent(JsonConvert.SerializeObject(taskUpdateRequest), Encoding.UTF8, "application/json");
 
                     HttpResponseMessage responseMessage = await httpClient.PostAsync("api/tasks/", stringContent);

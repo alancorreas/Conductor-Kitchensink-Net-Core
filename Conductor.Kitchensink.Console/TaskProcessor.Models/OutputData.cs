@@ -12,5 +12,8 @@ namespace Conductor.KitchenSink.Console
 
         [JsonProperty("mod")]
         public int? Mod { get; set; }
+
+        [JsonProperty("elasticSearchHost")]
+        public string ElasticSearchHost { get; set; }
     }
 }
