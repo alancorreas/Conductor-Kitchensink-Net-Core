@@ -58,7 +58,7 @@ namespace Task6Processor.Console
                         continue;
                     }
 
-                    System.Console.WriteLine($"Processed task: {await responseMessage.Content.ReadAsStringAsync()}");
+                    System.Console.WriteLine($"Task6 Worker Processed task: {await responseMessage.Content.ReadAsStringAsync()}");
 
                     Thread.Sleep(1000);
                 }
