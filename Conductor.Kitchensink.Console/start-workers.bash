@@ -1,3 +1,5 @@
+trap "exit" INT TERM
+trap "kill 0" EXIT
 dotnet ./Task1Processor/bin/Debug/netcoreapp2.1/Task1Processor.Console.dll -baseAddress http://192.168.137.93:8080 &
 dotnet ./Task4Processor.Console/bin/Debug/netcoreapp2.1/Task4Processor.Console.dll -baseAddress http://192.168.137.93:8080 &
 dotnet ./Task5Processor.Console/bin/Debug/netcoreapp2.1/Task5Processor.Console.dll -baseAddress http://192.168.137.93:8080 &
